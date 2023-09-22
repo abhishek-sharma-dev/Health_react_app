@@ -1,0 +1,44 @@
+.registrationContainer{
+    width: 100%;
+}
+
+.userForm{
+    margin-right: 2em;
+}
+
+.header{
+    text-align: center;
+    margin: 0.5em 0 1.5em 0;
+}
+.icon{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.confirmationCheckbox{
+    display: flex;
+    align-items: center;
+    padding: 0px 1em;
+}
+
+label{
+    font-weight: bold;
+    margin: 15px 20px;
+}
+.btnDiv{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 2em;
+}
+.btn{
+    border-radius: 5px;
+    padding: 5px 15px;
+    text-align: center;
+}
+
+.row-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

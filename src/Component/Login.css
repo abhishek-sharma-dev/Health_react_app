@@ -1,0 +1,62 @@
+#login-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0e131d;
+    color: white;
+    padding: 5em 0px;
+}
+#login{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #192133e3;
+}
+
+.createAcconut{
+text-decoration: none;
+
+}
+.row-container{
+    display: flex;
+
+}
+#email, #password{
+    font-size: 1em;
+    background: none;
+    color: white;
+    border-radius: 3px;
+}
+
+
+#loginRow-1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#loginRow-2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 5em 0px 2em;
+}
+
+.loginHeader{
+    width: 100%;
+    padding-left: 1em;
+}
+
+.inputField{
+    display: flex;
+    align-items: center;
+}
+
+#loginBtn{
+    font-size: 1em;
+    padding: 10px 20px;
+    margin-left: 1em;
+}

@@ -1,0 +1,49 @@
+.articleCard {
+    width: 75%;
+    border-radius: 3px;
+    display: flex;
+    overflow: hidden;
+}
+
+.cardRow {
+    width: 25%;
+    background-image: linear-gradient(to right, #0d6efd , #2a80ff);
+}
+
+.articleCard-body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#imgContainer{
+    width: 100%;
+    height: 10em;
+}
+.articleCard-img {
+    width: 100%;
+    height: 10em;
+}
+.articleCard-text{
+    height: 7em;
+}
+
+.articleCard-content {
+    padding: 1.5em;
+    color: white;
+}
+
+.articleCard-content hr {
+    margin: 1rem 0;
+    color: black;
+    opacity: 1;
+    width: 40%;
+    border: 0;
+    border-top: 2px solid;
+
+}
+
+.articleBtn{
+    color: black;
+    background: white;
+    font-weight: 500;
+}

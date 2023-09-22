@@ -1,0 +1,27 @@
+.carousel{
+    width: 100%;
+}
+.carousel-inner img{
+    height: 35em;
+}
+.carouselHeader{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    opacity: 1;
+}
+
+.containerChild{
+    width: 100%;
+    margin: 5em 0px 3em 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

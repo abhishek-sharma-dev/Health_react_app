@@ -1,0 +1,37 @@
+body{
+    background-color:#eee;
+}
+
+.contact-card{
+    width: 90%;
+    margin: 1em;
+    background-color: #D6E6F2;
+    box-shadow: 0 4px 8px rgb(0 0 0 / 12%);
+    display: flex;
+    padding: 10px 15px;
+}
+.row{
+    --bs-gutter-x:0;
+}
+#contactus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contactus input, textarea{
+    width: 50%;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 2px;
+}
+#submitBtn {
+    border-radius: 5px;
+    background-color: #0d6efd;
+    color: white;
+    margin: 5px 0;
+}
+
+#feedback{
+    text-transform: uppercase;
+    text-align: center;
+}
